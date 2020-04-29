@@ -19,7 +19,7 @@ class SimpleBandit():
         self._create_initials()
         
     def _create_initials(self):
-        self.true_q_values = np.random.normal(0, 1, self.num_of_bandits)
+        self.true_q_values = np.random.normal(self.mean, self.variance, self.num_of_bandits)
         self.estimated_q_values = np.zeros((self.num_of_bandits))
         self.number_of_action_taken = np.zeros((self.num_of_bandits))
 
