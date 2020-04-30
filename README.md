@@ -10,5 +10,7 @@ The Content:
       - https://alperenadatepe.wordpress.com/2020/04/25/experiments-in-reinforcement-learning-12-ten-armed-bandits-testbed/
       - https://alperenadatepe.wordpress.com/2020/04/26/experiments-in-reinforcement-learning-13-average-reward-for-bandits/
       - https://alperenadatepe.wordpress.com/2020/04/27/experiments-in-reinforcement-learning-14-optimal-action-selection-for-bandits/
-      
+  - Simple Bandit With Incremental Implementation
+    - You can read the relative blog post from here:
+      - https://alperenadatepe.wordpress.com/2020/04/30/exercises-in-reinforcement-learning-17-simple-bandit-algorithm/
   
