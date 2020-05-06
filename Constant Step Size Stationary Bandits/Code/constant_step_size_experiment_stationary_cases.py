@@ -55,7 +55,6 @@ class KArmedBanditTestBed():
                     chosen_action = self.choose_action_by_epsilon_greedy()
                     reward = self.provide_reward(chosen_action)
                     
-                    
                     average_reward_distribution[time_step] += reward
                     
                     self.estimated_q_values[chosen_action] = self.estimated_q_values[chosen_action] + step_size * (reward - self.estimated_q_values[chosen_action])            
